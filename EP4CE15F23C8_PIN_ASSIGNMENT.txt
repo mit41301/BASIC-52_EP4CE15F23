@@ -1,0 +1,9 @@
+EP4CE15F23C8
+
+QUARTUS_VERSION "18.1.0 Lite Edition
+
+set_location_assignment PIN_T2 -to clk_50MHz
+set_location_assignment PIN_Y13 -to SW1
+set_location_assignment PIN_E4 -to LED[0]
+set_location_assignment PIN_M19 -to Rx
+set_location_assignment PIN_N19 -to Tx
