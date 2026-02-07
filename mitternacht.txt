@@ -1,0 +1,8 @@
+10 PRINT "Mitternachtsformel"
+20 PRINT "ax2 + bx + c = 0"
+30 INPUT "a,b,c eingeben: ", A, B, C
+40 LET S = B * B - (4 * A * C)
+50 IF S < 0 THEN PRINT "Es gibt keine reale Loesung" : END
+60 LET S = SQR(S)
+70 PRINT "x1 =", (-B+S)/(2*A)
+80 PRINT "x2 =", (-B-S)/(2*A)
